@@ -1,0 +1,32 @@
+{
+    "name": "express_services",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node ./src/index.ts",
+        "dev": "nodemon src/index.ts",
+        "build": "npx tsc",
+        "start:prod": "npm run build && node ./dist/index.js",
+        "start:nodemon": "nodemon --exec ts-node ./src/index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "bcryptjs": "^3.0.3",
+        "body-parser": "^2.2.2",
+        "express": "^5.2.1",
+        "express-handlebars": "^8.0.1",
+        "jsonwebtoken": "^9.0.3",
+        "mysql2": "^3.17.4",
+        "nodemon": "^3.1.14"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.6",
+        "@types/jsonwebtoken": "^9.0.10",
+        "@types/node": "^25.3.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.3"
+    }
+}
