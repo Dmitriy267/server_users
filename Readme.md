@@ -19,4 +19,4 @@
 - create table user (id integer auto_increment primary key, FirstName varchar(30), SurName varchar(30), LastName varchar(30), berthday DATE, email varchar(20), password varchar(20), role varchar(10), status BOOLEAN);
 - insert into user (FirstName, SurName, LastName, berthday, email, password, role, status) values ('Сидоров', 'Коля', 'Александрович', '1989-06-13', 'sidor@mail.ru', '123', 'user', true)
 
-Подобным образом добавлял до 8 пользователей
+Подобным образом добавлял до 10 пользователей
