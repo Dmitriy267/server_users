@@ -11,8 +11,11 @@
 В примере создана функция для аутентификации. В ней проверяется токен и роль при регистрации. Ранее при регистрации пароль, который вводит пользователь хешируется.
 
 Также для некоторых запросов проверяется их выполнение. Результат можно увидеть в консоле терминала при запуске в режиме разработки. Данные берутся из БД.
-БД создал следующим образом:
-create database test;
-use test;
-create table user (id integer auto_increment primary key, FirstName varchar(30), SurName varchar(30), LastName varchar(30), berthday DATE, email varchar(20), password varchar(20), role varchar(10), status BOOLEAN);
-insert into user (FirstName, SurName, LastName, berthday, email, password, role, status) values ('Сидоров', 'Коля', 'Александрович', '1989-06-13', 'sidor@mail.ru', '123', 'user', true)
+
+
+### БД создал следующим образом:
+- create database test2;
+- use test2;
+- create table user (id integer auto_increment primary key, FirstName varchar(30), SurName varchar(30), LastName varchar(30), berthday DATE, email varchar(20), password varchar(20), role varchar(10), status BOOLEAN);
+- insert into user (FirstName, SurName, LastName, berthday, email, password, role, status) values ('Сидоров', 'Коля', 'Александрович', '1989-06-13', 'sidor@mail.ru', '123', 'user', true)
+
